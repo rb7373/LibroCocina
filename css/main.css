@@ -1,0 +1,45 @@
+body, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+#book {
+	background: url("../images/book.png");
+	background-attachment:local;
+	position: absolute;
+	width: 1590px;
+	height: 670px;
+	margin-left: 0px;
+	resize: inherit;
+	left: 165px;
+}
+
+
+
+#menuHorizontal {
+//opacity:0;
+}
+	#pages section>div {
+		display: block;
+		width: 780px;
+		height: 670px;
+		font-size: 12px;
+	}
+	#pages section p,
+	#pages section h2 {
+		padding: 3px 35px;
+		line-height: 1.4em;
+		text-align: justify;
+	}
+	#pages section h2{
+		margin: 15px 0 10px;
+	}
+
+//#pageflip-canvas {
+//	position: absolute;
+//	z-index: 100;
+//}
